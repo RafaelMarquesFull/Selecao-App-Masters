@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    /* CORES PARA TEXTOS */
+    --colorTesxIFilterSelect: black;
+    --colorTesxIFilterSelectPalceholder: black;
+    --colorTesxItemsTitle: black;
+    --colorTesxItemsDescription: rgb(255, 255, 255);
+    --colorTextFilterSelects:rgb(128, 128, 128); ;
+    --fontFamilyItemsDescript: 'Roboto', sans-serif;
+    --fontWeigthItemsDescript: 600 ; 
+
+    /* CORES PARA BOTOES */
+    --colorTesxItemsButton: #3c351cc1;
+    --colorBackgroundItemsButton: rgba(0, 0, 0, 0);
+    --fontFamilyItemsButton: 'Roboto', sans-serif; 
+    --fontWeigth: 600 ;
+    --fontSizeButton: 12px; 
+
+   /* CORES PARA CONTAINERS */
+    --colorBackgroundPage: #C2B5FF;
+    --colorBackgroundHeader: balck;
+    --corBackgroundContanerAllItems: #FFDC5D;
+    --corBackgroundContanerLateral: rgb(255, 255, 255);
+    --colorBackgroundTitlebox: #FFDC5D;
+    --colorBackgroundItem: #C2B5FF;
+    --colorBackgroundFilte: rgb(255, 255, 255);
+
+    /* COR FUNDO HOVER */
+    --backgroundHover: #0303033a;
+    
+
+
+    /* TAMANHOS DE FONTES */
+    --sizeItemDescription: 12px;
+
+   /* CORES PARA SOMBRAS */
+   --colorShadowFilter: #ffdc5db8; 
+   @media (max-width: 560px) {
+    --sizeItemDescription: 10px;
+
+   }
+  
+  }

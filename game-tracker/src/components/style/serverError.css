@@ -1,0 +1,15 @@
+@import url(./../style/coloSchema.css);
+.Container_Error{
+    margin: 100px 0 300px 0;
+    text-align: center;
+}
+.error_img{
+    min-width: 180px ;
+
+}
+.Text_Error{
+    font-size: 22px;
+    color: rgb(65, 65, 65);
+    font-family: var(--fontFamilyItemsDescript);
+    font-weight: var(--fontWeigthItemsDescript);
+}
