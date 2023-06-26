@@ -9,8 +9,8 @@
     .mobiler_Menu{
         cursor: pointer;
         position: absolute;
-        width: 38px;
-        height: 38px;
+        width: 36px;
+        height: 36px;
         background-color: #ffdc5d;
         border-radius: 8px;
         margin-left: 3%;
@@ -114,7 +114,7 @@
     .filter_list{
         display: flex !important;
         margin: 4% 8px !important;
-        justify-content: end !important;
+        justify-content: flex-end !important;
         height: 100% !important;
         
     }
@@ -171,7 +171,7 @@
 .filterOptions{
     background-color: rgba(255, 255, 255, 0.901);
     display: flex;
-    justify-content: end;
+    justify-content: flex-end ;
     margin: 2em 3% 1em 3%;
     padding: 1%;
     justify-content: space-around;
